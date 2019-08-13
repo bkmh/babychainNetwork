@@ -1,0 +1,10 @@
+{
+  "watchOptions": {"ignored": ["node_modules", "data", "uploads"]},
+  "injectChanges": true,
+  "watch": true,
+  "logLevel": "debug",
+  "server": {
+    "baseDir": ["./src/", "./build/contracts"],
+    "index": "./src/index.html"
+  }
+}
